@@ -1,12 +1,11 @@
+import { StyledTitle } from "../../styles/title.style";
+
 const Title = ({ sn, title }) => {
   return (
-    <div>
+    <StyledTitle>
       <span>{sn}.</span>
-      <h2>{title}</h2>
-      <div>
-        <hr />
-      </div>
-    </div>
+      <h4>{title}</h4>
+    </StyledTitle>
   );
 };
 

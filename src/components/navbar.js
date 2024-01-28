@@ -1,10 +1,13 @@
+import { ThemeProvider } from "styled-components";
 import { StyledNavbar } from "../styles/navbar.style";
+import { theme } from "../styles/theme";
 
 const Navbar = () => {
   return (
-    <StyledNavbar>
-      <span>JEOLAD</span>
-      <div>
+    <ThemeProvider theme={theme}>
+      <StyledNavbar>
+      <div>JEOLAD</div>
+      <nav>
         <ul>
           <li>
             <span>01.</span>About
@@ -19,8 +22,9 @@ const Navbar = () => {
             <span>04.</span>Contact
           </li>
         </ul>
-      </div>
+      </nav>
     </StyledNavbar>
+    </ThemeProvider>
   );
 };
 

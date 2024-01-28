@@ -1,5 +1,7 @@
+import { StyledButton } from "../../styles/button.style";
+
 const Button = ({ text }) => {
-  return <button>{text}</button>;
+  return <StyledButton>{text}</StyledButton>;
 };
 
 export default Button;

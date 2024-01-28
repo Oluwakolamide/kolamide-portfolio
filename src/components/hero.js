@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <StyledHero>
       <div>
-        <h3>Hi, my name is</h3>
-        <h2>Jesse ADESINA</h2>
-        <h2>I love learning and building</h2>
+        <span>Hi, my name is</span>
+        <h2>Jesse ADESINA.</h2>
+        <h3>I love learning and building.</h3>
         <p>
           I am a software engineer with a passion for building (and occasionally
           designing) user-friendly digital products. I currently specialise in

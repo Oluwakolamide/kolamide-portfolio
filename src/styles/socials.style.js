@@ -5,10 +5,10 @@ export const StyledSocials = styled.div`
     display: inline-flex;
     list-style: none;
     li {
-        padding-right: 10px;
+        padding-inline: 10px;
         a {
             text-decoration: none;
-            color: inherit;
+            color: var(--white);
         }
     }
   }
