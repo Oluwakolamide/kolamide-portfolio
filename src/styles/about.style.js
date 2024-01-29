@@ -8,9 +8,17 @@ export const StyledAbout = styled.div`
     color: var(--white);
     padding-block: 20px;
     display: flex;
+    padding-top: 30px;
 
     div {
         width: 50%;
+        p {
+          padding-bottom: 1rem;
+          font-size: var(--fs-sm);
+          span {
+            color: var(--purple);
+          }
+        }
     }
   }
 `;

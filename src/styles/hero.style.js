@@ -24,9 +24,9 @@ export const StyledHero = styled.header`
 
     p {
       color: var(--white);
-      font-size: var(--fs-md);
-      padding-bottom: 50px;
-      width: 75%;
+      font-size: var(--fs-sm);
+      padding: 20px 0 60px;
+      width: 70%;
     }
   }
 `

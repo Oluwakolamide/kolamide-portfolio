@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
     font-family: var(--font-custom);
     font-weight: 400;
+    line-height: 1.5;
   }
 `;
 

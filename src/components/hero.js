@@ -12,7 +12,7 @@ const Hero = () => {
           I am a software engineer with a passion for building (and occasionally
           designing) user-friendly digital products. I currently specialise in
           building front-end web applications and mobile applications with focus
-          on simplicity.
+          on usability and simplicity.
         </p>
         <Button text={"Download my résumé"} />
       </div>

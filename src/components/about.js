@@ -8,19 +8,29 @@ const About = () => {
       <Title sn={"01"} title={"Meet Me"} />
       <section>
         <div>
+          <p>Hello there! 👋🏾</p>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..", comes from a line in section 1.10.32.
+            I'm Jesse, and my canvas is the internet. I'm passionate about
+            developing solutions that make people's lives easier, and I love
+            building things that live on the Internet.
+          </p>
+          <p>
+            Because I think that no one is self-made and that we all need other
+            people to solve problems and make sense of life, I have a strong
+            affinity for working in teams. <span>I believe I'm a really good team
+            player.</span>
+          </p>
+          <p>
+            In 2021, I became interested in software development. I was a
+            Surveying and Geoinformatics student at the time. My curiosity drove
+            me to drop out of my then-academic program to pursue a career in
+            software engineering. Although it has been a very challenging
+            journey, I'm quite happy that I took the risk.
+          </p>
+          <p>
+            Currently, <span>I don’t have any professional experience</span>, but I'm looking
+            to gain knowledge and apply my abilities by <span>working with a team of
+            creative developers and designers.</span>
           </p>
         </div>
         <div>
