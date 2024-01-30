@@ -13,11 +13,13 @@ export const StyledNavbar = styled.div`
   div {
     color: var(--purple);
     font-size: var(--fs-lg);
+    cursor: pointer;
   }
 
   nav {
     width: 40%;
     font-size: var(--fs-sm);
+    cursor: pointer;
 
     ul {
       display: flex;
@@ -31,6 +33,9 @@ export const StyledNavbar = styled.div`
         }
 
         color: var(--white);
+        &:hover {
+          color: var(--purple);
+        }
       }
     }
   }

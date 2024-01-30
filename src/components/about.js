@@ -1,6 +1,6 @@
 import Title from "./sections/title";
 import Socials from "./sections/socials";
-import { StyledAbout } from "../styles/about.style";
+import { StyledAbout, StyledAboutImage } from "../styles/about.style";
 
 const About = () => {
   return (
@@ -17,8 +17,8 @@ const About = () => {
           <p>
             Because I think that no one is self-made and that we all need other
             people to solve problems and make sense of life, I have a strong
-            affinity for working in teams. <span>I believe I'm a really good team
-            player.</span>
+            affinity for working in teams.{" "}
+            <span>I believe I'm a really good team player.</span>
           </p>
           <p>
             In 2021, I became interested in software development. I was a
@@ -28,14 +28,22 @@ const About = () => {
             journey, I'm quite happy that I took the risk.
           </p>
           <p>
-            Currently, <span>I don’t have any professional experience</span>, but I'm looking
-            to gain knowledge and apply my abilities by <span>working with a team of
-            creative developers and designers.</span>
+            Currently, <span>I don’t have any professional experience</span>,
+            but I'm looking to gain knowledge and apply my abilities by{" "}
+            <span>
+              working with a team of creative developers and designers.
+            </span>
+          </p>
+          <p>
+            Fun fact 🙃: <span>JEOLAD</span> is short for{" "}
+            <span>Jesse Oluwapelumi Adesina.</span>
           </p>
         </div>
-        <div>
-          <div className="img-container"></div>
-        </div>
+        <StyledAboutImage>
+          <div className="back">
+            <img src={require("./images/jeolad-portfolio.png")} alt="jeolad" />
+          </div>
+        </StyledAboutImage>
       </section>
       <Socials />
     </StyledAbout>

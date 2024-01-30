@@ -9,6 +9,9 @@ export const StyledSocials = styled.div`
         a {
             text-decoration: none;
             color: var(--white);
+            &:hover {
+              color: var(--purple);
+            }
         }
     }
   }

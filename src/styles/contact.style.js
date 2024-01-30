@@ -30,6 +30,9 @@ export const StyledContact = styled.div`
       gap: 0.5rem;
       border-bottom: 3px solid var(--purple);
       padding: 0.5rem;
+      &:hover {
+        color: var(--gray);
+      }
     }
   }
 `;
