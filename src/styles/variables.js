@@ -22,7 +22,8 @@ const variables = css`
     --button-border: 1px solid;
     --button-padding: 18px;
 
-    --padding-subject: 10px;
+    --padding-subject: 20px;
+    --padding-body: 16.67vw;
 
 }
 `;

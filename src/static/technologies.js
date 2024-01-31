@@ -1,0 +1,15 @@
+export const technologies = [
+    {id: "1", name: "HTML"},
+    {id: "2", name: "CSS"},
+    {id: "3", name: "JavaScript"},
+    {id: "4", name: "Tailwind"},
+    {id: "5", name: "Sass"},
+    {id: "6", name: "React"},
+    {id: "7", name: "Dart"},
+    {id: "8", name: "Flutter"},
+    {id: "9", name: "Figma"},
+    {id: "10", name: "FireBase"},
+    {id: "11", name: "TypeScript"},
+    {id: "12", name: "Styled-components"},
+    {id: "13", name: "Material design"},
+]

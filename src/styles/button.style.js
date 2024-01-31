@@ -7,4 +7,8 @@ export const StyledButton = styled.button`
   border: var(--button-border) var(--purple);
   padding: var(--button-padding);
   font-size: var(--fs-sm);
+  &:hover {
+    color: var(--gray);
+    border: var(--button-border) var(--gray);
+  }
 `

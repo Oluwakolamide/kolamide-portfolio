@@ -11,6 +11,7 @@ import { theme } from "./styles/theme";
 import { StyledApp } from "./styles/app.style";
 import GlobalStyle from "./styles/GlobalStyle";
 import Footer from "./components/footer";
+import Experience from "./components/experience";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Experience />
         <Contact />
         <Footer />
       </StyledApp>
