@@ -32,6 +32,7 @@ export const StyledContact = styled.div`
       padding: 0.5rem;
       &:hover {
         color: var(--gray);
+        border-bottom: 3px solid var(--gray);
       }
     }
   }
