@@ -25,6 +25,8 @@ const variables = css`
     --padding-subject: 20px;
     --padding-body: 16.67vw;
 
+    --border-radius: 8px;
+
 }
 `;
 
