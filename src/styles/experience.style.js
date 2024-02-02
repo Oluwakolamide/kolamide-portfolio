@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledExperience = styled.div`
   padding-inline: var(--padding-body);
   color: var(--white);
+  padding-bottom: var(--padding-body-sm);
   section {
     padding-block: var(--padding-subject);
     p {
@@ -32,7 +33,6 @@ export const StyledTechnologies = styled.div`
 
 export const StyledSkills = styled.div`
   white-space: wrap;
-  padding-bottom: var(--padding-subject);
   span {
     display: inline-block;
     margin-bottom: 5px;

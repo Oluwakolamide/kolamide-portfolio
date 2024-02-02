@@ -12,6 +12,8 @@ import { StyledApp } from "./styles/app.style";
 import GlobalStyle from "./styles/GlobalStyle";
 import Footer from "./components/footer";
 import Experience from "./components/experience";
+//import ProjectCard from "./components/sections/projectcard";
+import Projects from "./components/projects";
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <Hero />
         <About />
         <Experience />
+        <Projects />
         <Contact />
         <Footer />
       </StyledApp>

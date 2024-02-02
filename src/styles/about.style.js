@@ -32,6 +32,7 @@ export const StyledAboutImage = styled.aside`
     border: 2px solid var(--purple);
     img {
       background: var(--purple);
+      object-fit: cover;
       width: 100%;
       top: 0;
       filter: grayscale(100%);
