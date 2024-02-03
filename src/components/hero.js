@@ -9,9 +9,9 @@ const Hero = () => {
         <h2>Jesse ADESINA.</h2>
         <h3>I love learning and building.</h3>
         <p>
-          I am a software engineer with a passion for building (and occasionally
+          I am a software engineer passionate about building (and occasionally
           designing) user-friendly digital products. I currently specialise in
-          building front-end web applications and mobile applications with focus
+          building front-end web applications and mobile applications, focusing
           on usability and simplicity.
         </p>
         <Button text={"Download my résumé"} />
