@@ -27,14 +27,18 @@ export const StyledNavbar = styled.div`
       list-style: none;
 
       li {
-        span {
-          padding-right: 5px;
-          color: var(--purple);
-        }
+        a {
+          text-decoration: none;
 
-        color: var(--white);
-        &:hover {
-          color: var(--purple);
+          span {
+            padding-right: 5px;
+            color: var(--purple);
+          }
+
+          color: var(--white);
+          &:hover {
+            color: var(--purple);
+          }
         }
       }
     }
