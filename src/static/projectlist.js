@@ -33,7 +33,7 @@ export const projectlist = [
       },
       {
         icon: <Link size={24} />,
-        link: "jessepelumi.github.io/BellevilleDental/belleville.html#",
+        link: "https://jessepelumi.github.io/BellevilleDental/belleville.html#",
       },
     ],
   },
@@ -51,7 +51,7 @@ export const projectlist = [
       },
       {
         icon: <Link size={24} />,
-        link: "jessepelumi.github.io/styvicImages/public/styvic.html",
+        link: "https://jessepelumi.github.io/styvicImages/public/styvic.html",
       },
     ],
   },
