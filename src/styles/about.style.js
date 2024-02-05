@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const StyledAbout = styled.div`
   padding-inline: var(--padding-body);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   section {
     color: var(--white);

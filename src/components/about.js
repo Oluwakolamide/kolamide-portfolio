@@ -4,7 +4,7 @@ import { StyledAbout, StyledAboutImage } from "../styles/about.style";
 
 const About = () => {
   return (
-    <StyledAbout>
+    <StyledAbout id="about">
       <Title sn={"01"} title={"Meet Me"} />
       <section>
         <div>
