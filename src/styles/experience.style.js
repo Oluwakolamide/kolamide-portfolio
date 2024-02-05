@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledExperience = styled.div`
   padding-inline: var(--padding-body);
   color: var(--white);
-  padding-bottom: var(--padding-body-sm);
+  padding-block: var(--padding-body-sm);
   section {
     padding-block: var(--padding-subject);
     p {

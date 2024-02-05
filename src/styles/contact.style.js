@@ -6,7 +6,8 @@ export const StyledContact = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  padding-bottom: 5rem;
+  padding-inline: var(--padding-body);
+  padding-block: var(--padding-body-sm);
 
   h2 {
     color: var(--white);

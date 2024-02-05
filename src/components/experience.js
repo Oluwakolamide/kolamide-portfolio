@@ -9,7 +9,7 @@ import Title from "./sections/title";
 
 const Experience = () => {
   return (
-    <StyledExperience>
+    <StyledExperience id="experience">
       <Title sn={"02"} title={"Experience"} />
       <section>
         <p>Here are the technologies I've learned and worked with:</p>

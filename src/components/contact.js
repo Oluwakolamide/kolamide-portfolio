@@ -5,7 +5,7 @@ import { EnvelopeSimple } from "@phosphor-icons/react";
 
 const Contact = () => {
   return (
-    <StyledContact>
+    <StyledContact id="contact">
       <Title sn={"04"} title={"Contact"} />
       <h2>Get in Touch</h2>
       <p>
