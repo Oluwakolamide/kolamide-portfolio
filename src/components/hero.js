@@ -3,7 +3,7 @@ import { StyledHero } from "../styles/hero.style";
 
 const Hero = () => {
   return (
-    <StyledHero>
+    <StyledHero id="hero">
       <div>
         <span>Hi, my name is</span>
         <h2>Jesse ADESINA.</h2>
@@ -14,7 +14,7 @@ const Hero = () => {
           building front-end web applications and mobile applications, focusing
           on usability and simplicity.
         </p>
-        <Button text={"Download my résumé"} />
+        <Button text={"Download my résumé"} link={"/TestResume.pdf"} />
       </div>
     </StyledHero>
   );
