@@ -7,7 +7,7 @@ const ProjectCard = ({
     <StyledProjectCard
       layout={id % 2 === 0 && "rtl"}
       text={id % 2 === 0 && "left"}
-      image={image}
+      backgroundimg={image}
     >
       <img src={require(`../images/${image}`)} alt={project_title} />
       <aside>

@@ -65,6 +65,11 @@ export const StyledSkills = styled.div`
 
   ${media.md`
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  `}
+
+  ${media.sm`
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   `}
 

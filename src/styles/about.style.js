@@ -69,6 +69,11 @@ export const StyledAboutImage = styled.aside`
   }
 
   ${media.md`
+  width: 50%;
+  margin: 0 auto;
+  `}
+
+  ${media.sm`
   width: 90%;
   margin: 0 auto;
   `}

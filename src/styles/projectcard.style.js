@@ -57,15 +57,20 @@ export const StyledProjectCard = styled.div`
 
   ${media.md`
   display: block;
+  background-color: var(--background);
+  background-image: ${({ backgroundimg }) =>
+    `url(${require(`../components/images/${backgroundimg}`)})`};
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin-bottom: 5%;
   img {
     display: none;
   }
   aside {
     display: block;
     margin-top: 0;
-    background-image: url(${(props) => `../images/${props.image}`});
-    background-size: cover;
-    background-position: center;
     h2 {
       text-align: left;
       padding-left: var(--button-padding);
@@ -88,7 +93,7 @@ export const StyledProjectCard = styled.div`
     i {
       display: flex;
       gap: 10px;
-      padding-top: 1%;
+      padding-top: 3%;
       padding-left: var(--button-padding);
       flex-direction: row;
       justify-content: left;
@@ -97,6 +102,7 @@ export const StyledProjectCard = styled.div`
   `}
 
   ${media.xxs`
+  
   aside {
     div {
       font-size: var(--fs-sm);
@@ -104,7 +110,6 @@ export const StyledProjectCard = styled.div`
     b, i {
       gap: 5px;
       font-size: var(--fs-xs);
-      padding-bottom: 3%;
     }
   }
   `}
