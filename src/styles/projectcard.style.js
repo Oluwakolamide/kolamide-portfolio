@@ -63,7 +63,7 @@ export const StyledProjectCard = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-blend-mode: multiply;
+  background-blend-mode: overlay;
   margin-bottom: 5%;
   img {
     display: none;
