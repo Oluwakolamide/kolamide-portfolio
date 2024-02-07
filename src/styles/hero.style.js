@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { media } from "./breakpoints";
 
 export const StyledHero = styled.header`
-  padding-inline: 16.67vw;
+  padding-inline: var(--padding-body);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,4 +30,28 @@ export const StyledHero = styled.header`
       width: 70%;
     }
   }
-`
+
+  ${media.sm`
+  padding-inline: var(--padding-body-xs);
+  width: 100%;
+  div {
+    h2, h3 {
+      font-size: var(--fs-xxl);
+    }
+    p {
+      width: 100%;
+    }
+  }
+  `}
+
+  ${media.xxs`
+  div {
+    h2, h3 {
+      font-size: var(--fs-xl);
+    }
+    p {
+      font-size: var(--fs-xs);
+    }
+  }
+  `}
+`;

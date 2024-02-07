@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { media } from "./breakpoints";
 
 export const StyledNavbar = styled.div`
   padding: 1rem 8.33vw;
@@ -43,4 +44,10 @@ export const StyledNavbar = styled.div`
       }
     }
   }
+
+  ${media.md`
+  nav {
+    display: none;
+  }
+  `}
 `;

@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import { media } from "./breakpoints";
 
 export const StyledProjectCard = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
   padding-block: var(--padding-subject);
-  direction: ${({layout}) => layout || "ltr"};
+  direction: ${({ layout }) => layout || "ltr"};
   img {
     grid-column-end: span 7;
     width: 100%;
@@ -24,7 +25,7 @@ export const StyledProjectCard = styled.div`
     h2 {
       font-size: var(--fs-md);
       padding-bottom: 1%;
-      text-align: ${({text}) => text || "right"};
+      text-align: ${({ text }) => text || "right"};
     }
     div {
       background-color: var(--black);
@@ -34,6 +35,7 @@ export const StyledProjectCard = styled.div`
     b {
       color: var(--gray);
       display: flex;
+      flex-wrap: wrap;
       gap: 10px;
       padding-top: 1%;
       flex-direction: row-reverse;
@@ -52,4 +54,58 @@ export const StyledProjectCard = styled.div`
       }
     }
   }
+
+  ${media.md`
+  display: block;
+  img {
+    display: none;
+  }
+  aside {
+    display: block;
+    margin-top: 0;
+    background-image: url(${(props) => `../images/${props.image}`});
+    background-size: cover;
+    background-position: center;
+    h2 {
+      text-align: left;
+      padding-left: var(--button-padding);
+    }
+    div {
+      background-color: transparent;
+      padding: var(--button-padding);
+      border-bottom: none;
+      text-align: left;
+    }
+    b {
+      color: var(--gray);
+      display: flex;
+      gap: 10px;
+      padding-top: 1%;
+      padding-left: var(--button-padding);
+      flex-direction: row;
+      justify-content: left;
+    }
+    i {
+      display: flex;
+      gap: 10px;
+      padding-top: 1%;
+      padding-left: var(--button-padding);
+      flex-direction: row;
+      justify-content: left;
+    }
+  }
+  `}
+
+  ${media.xxs`
+  aside {
+    div {
+      font-size: var(--fs-sm);
+    }
+    b, i {
+      gap: 5px;
+      font-size: var(--fs-xs);
+      padding-bottom: 3%;
+    }
+  }
+  `}
 `;

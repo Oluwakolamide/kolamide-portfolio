@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { media } from "./breakpoints";
 
 export const StyledAbout = styled.div`
   padding-inline: var(--padding-body);
@@ -25,6 +26,27 @@ export const StyledAbout = styled.div`
       }
     }
   }
+
+  ${media.md`
+  padding-inline: var(--padding-body-xs);
+  height: auto;
+  section {
+    flex-direction: column;
+    div {
+      width: 100%;
+    }
+  }
+  `}
+
+  ${media.xxs`
+  section {
+    div {
+      p {
+        font-size: var(--fs-xs);
+      }
+    }
+  }
+  `}
 `;
 
 export const StyledAboutImage = styled.aside`
@@ -45,4 +67,9 @@ export const StyledAboutImage = styled.aside`
       }
     }
   }
+
+  ${media.md`
+  width: 90%;
+  margin: 0 auto;
+  `}
 `;

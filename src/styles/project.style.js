@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { media } from "./breakpoints";
 
 export const StyledProject = styled.section`
   padding-inline: var(--padding-body);
@@ -23,4 +24,14 @@ export const StyledProject = styled.section`
       border-bottom: 3px solid var(--gray);
     }
   }
+
+  ${media.md`
+  padding-inline: var(--padding-body-xs);
+  `}
+
+  ${media.xxs`
+  div.more {
+    font-size: var(--fs-xs);
+  }
+  `}
 `;

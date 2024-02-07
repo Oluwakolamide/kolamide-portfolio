@@ -25,6 +25,7 @@ const variables = css`
     --padding-subject: 20px;
     --padding-body: 16.67vw;
     --padding-body-sm: 8.33vw;
+    --padding-body-xs: 5vw;
 
     --border-radius: 8px;
 

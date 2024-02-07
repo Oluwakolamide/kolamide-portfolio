@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { media } from "./breakpoints";
 
 export const StyledFooter = styled.div`
   color: var(--gray);
@@ -9,4 +10,8 @@ export const StyledFooter = styled.div`
   align-items: center;
   gap: 0.5rem;
   padding: 3rem;
+
+  ${media.xxs`
+  text-align: center;
+  `}
 `;

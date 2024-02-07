@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { media } from "./breakpoints";
 
 export const StyledContact = styled.div`
   display: flex;
@@ -37,4 +38,24 @@ export const StyledContact = styled.div`
       }
     }
   }
+
+  ${media.md`
+  p {
+    width: 100%;
+  }
+  `}
+
+  ${media.xxs`
+  h2 {
+    font-size: var(--fs-xl);
+  }
+  p {
+    font-size: var(--fs-xs);
+  }
+  span.btn {
+    a {
+      font-size: var(--fs-xs);
+    }
+  }
+  `}
 `;
