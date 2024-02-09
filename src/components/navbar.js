@@ -1,8 +1,16 @@
 import { StyledNavbar, StyledMenu } from "../styles/navbar.style";
 import { Link } from "react-scroll";
-import { SquaresFour } from "@phosphor-icons/react";
+import { SquaresFour, DiamondsFour } from "@phosphor-icons/react";
+import useNavbarState from "../hooks/useNavbarState";
 
 const Navbar = () => {
+  const { open, setOpen, handleClick } = useNavbarState();
+  const icon = open ? (
+    <DiamondsFour size={32} weight="fill" />
+  ) : (
+    <SquaresFour size={32} weight="fill" />
+  );
+
   return (
     <>
       <StyledNavbar>
@@ -33,39 +41,41 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <div className="menu">
-          <SquaresFour size={32} weight="fill" />
+        <div className="menu" onClick={() => setOpen(!open)}>
+          {icon}
         </div>
       </StyledNavbar>
 
-      <StyledMenu>
-        <section>
-          <nav>
-            <ul>
-              <li>
-                <Link to="about">
-                  <span>01.</span>About
-                </Link>
-              </li>
-              <li>
-                <Link to="experience">
-                  <span>02.</span>Experience
-                </Link>
-              </li>
-              <li>
-                <Link to="projects">
-                  <span>03.</span>Projects
-                </Link>
-              </li>
-              <li>
-                <Link to="contact">
-                  <span>04.</span>Contact
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </section>
-      </StyledMenu>
+      {open && (
+        <StyledMenu className={open ? "show" : "hide"}>
+          <section>
+            <nav>
+              <ul>
+                <li>
+                  <Link to="about" onClick={handleClick}>
+                    <span>01.</span>About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="experience" onClick={handleClick}>
+                    <span>02.</span>Experience
+                  </Link>
+                </li>
+                <li>
+                  <Link to="projects" onClick={handleClick}>
+                    <span>03.</span>Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link to="contact" onClick={handleClick}>
+                    <span>04.</span>Contact
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </StyledMenu>
+      )}
     </>
   );
 };

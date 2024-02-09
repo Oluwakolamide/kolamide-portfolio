@@ -72,9 +72,19 @@ export const StyledMenu = styled.aside`
   position: fixed;
   z-index: 1000;
 
+  .show {
+    transform: translateX(0);
+    transition: transform 2s ease-in;
+  }
+
+  .hide {
+    transform: translateX(100%);
+    transition: transform 2s ease-in;
+  }
+
   section {
     color: white;
-    width: 70%;
+    width: 80%;
     height: 100vh;
     position: fixed;
     right: 0;
