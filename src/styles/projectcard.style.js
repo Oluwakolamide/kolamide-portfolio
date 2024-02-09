@@ -101,6 +101,8 @@ export const StyledProjectCard = styled.div`
   }
   `}
 
+  ${media.sm``}
+
   ${media.xxs`
   
   aside {

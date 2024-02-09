@@ -27,6 +27,20 @@ export const StyledProject = styled.section`
 
   ${media.md`
   padding-inline: var(--padding-body-xs);
+  .project-div {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3%;
+  }
+  `}
+
+  ${media.sm`
+  padding-inline: var(--padding-body-xs);
+  .project-div {
+    display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  }
   `}
 
   ${media.xxs`

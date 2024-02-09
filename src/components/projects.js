@@ -9,9 +9,11 @@ const Projects = () => {
     <StyledProject id="projects">
       <Title sn={"03"} title={"Projects"} />
       <h2>Featured Projects:</h2>
-      {projectlist.map((item, index) => (
-        <ProjectCard key={index} item={item} />
-      ))}
+      <div className="project-div">
+        {projectlist.map((item, index) => (
+          <ProjectCard key={index} item={item} />
+        ))}
+      </div>
       <div className="more">View More Projets</div>
     </StyledProject>
   );
