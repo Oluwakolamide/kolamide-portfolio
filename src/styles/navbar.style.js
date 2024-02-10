@@ -61,25 +61,18 @@ export const StyledNavbar = styled.div`
 `;
 
 export const StyledMenu = styled.aside`
-  display: none;
-
   ${media.md`
-  display: flex;
   background-color: rgba(208, 162, 247, 0.1);
   backdrop-filter: blur(5px);
   width: 100%;
   height: 100vh;
   position: fixed;
+  transition: 0.1s;
   z-index: 1000;
+  visibility: hidden;
 
-  .show {
-    transform: translateX(0);
-    transition: transform 2s ease-in;
-  }
-
-  .hide {
-    transform: translateX(100%);
-    transition: transform 2s ease-in;
+  &.visible {
+    visibility: visible;
   }
 
   section {
@@ -88,8 +81,14 @@ export const StyledMenu = styled.aside`
     height: 100vh;
     position: fixed;
     right: 0;
+    transform: translateX(100%);
+    transition: 0.3s linear;
     background-color: var(--background);
     z-index: 1000;
+
+    &.show {
+      transform: translateX(0);
+    }
 
     nav {
       height: 100%;
