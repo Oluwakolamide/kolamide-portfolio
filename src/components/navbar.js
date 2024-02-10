@@ -2,9 +2,11 @@ import { StyledNavbar, StyledMenu } from "../styles/navbar.style";
 import { Link } from "react-scroll";
 import { Squash as Hamburger } from "hamburger-react";
 import useNavbarState from "../hooks/useNavbarState";
+import useBodyOverflow from "../hooks/useBodyOverflow";
 
 const Navbar = () => {
   const { open, setOpen, handleClick } = useNavbarState();
+  useBodyOverflow(open);
 
   return (
     <>
