@@ -39,7 +39,15 @@ export const StyledContact = styled.div`
     }
   }
 
+  ${media.lg`
+  padding-inline: var(--padding-body-sm);
+  p {
+    width: 40%;
+  }
+  `}
+
   ${media.md`
+  padding-block: var(--padding-body-lg);
   p {
     width: 100%;
   }

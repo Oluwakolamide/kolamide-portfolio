@@ -3,7 +3,7 @@ import { media } from "./breakpoints";
 
 export const StyledAbout = styled.div`
   padding-inline: var(--padding-body);
-  height: 100vh;
+  padding-block: var(--padding-body-sm);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,8 +27,13 @@ export const StyledAbout = styled.div`
     }
   }
 
+  ${media.lg`
+  padding-inline: var(--padding-body-sm);
+  `}
+
   ${media.md`
   padding-inline: var(--padding-body-xs);
+  padding-block: var(--padding-body-lg);
   height: auto;
   section {
     flex-direction: column;

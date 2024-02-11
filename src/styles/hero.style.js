@@ -31,6 +31,15 @@ export const StyledHero = styled.header`
     }
   }
 
+  ${media.lg`
+  padding-inline: var(--padding-body-sm);
+  div {
+    p {
+      width: 90%;
+    }
+  }
+  `}
+
   ${media.md`
   padding-inline: var(--padding-body-xs);
   width: 100%;

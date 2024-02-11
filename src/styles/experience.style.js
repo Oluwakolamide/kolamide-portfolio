@@ -14,8 +14,13 @@ export const StyledExperience = styled.div`
     }
   }
 
+  ${media.lg`
+  padding-inline: var(--padding-body-sm);
+  `}
+
   ${media.md`
   padding-inline: var(--padding-body-xs);
+  padding-block: var(--padding-body-lg);
   `}
 `;
 

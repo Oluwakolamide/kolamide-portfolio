@@ -55,6 +55,12 @@ export const StyledProjectCard = styled.div`
     }
   }
 
+  ${media.lg`
+  aside {
+    margin-top: -70%;
+  }
+  `}
+
   ${media.md`
   display: block;
   background-color: var(--background);

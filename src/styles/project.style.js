@@ -25,8 +25,13 @@ export const StyledProject = styled.section`
     }
   }
 
+  ${media.lg`
+  padding-inline: var(--padding-body-sm);
+  `}
+
   ${media.md`
   padding-inline: var(--padding-body-xs);
+  padding-block: var(--padding-body-lg);
   .project-div {
     display: grid;
   grid-template-columns: repeat(2, 1fr);
