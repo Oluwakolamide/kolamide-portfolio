@@ -49,6 +49,12 @@ export const StyledNavbar = styled.div`
     display: none;
   }
 
+  ${media.lg`
+  nav {
+    width: 55%;
+  }
+  `}
+
   ${media.md`
   nav {
     display: none;
@@ -61,7 +67,10 @@ export const StyledNavbar = styled.div`
 `;
 
 export const StyledMenu = styled.aside`
+  display: none;
+
   ${media.md`
+  display: block;
   background-color: rgba(208, 162, 247, 0.1);
   backdrop-filter: blur(5px);
   width: 100%;
