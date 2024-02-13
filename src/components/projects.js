@@ -5,12 +5,14 @@ import ProjectCard from "./sections/projectcard";
 import Title from "./sections/title";
 
 const Projects = () => {
+  const featuredProjects = projectlist.slice(0, 4);
+
   return (
     <StyledProject id="projects">
       <Title sn={"03"} title={"Projects"} />
       <h2>Featured Projects:</h2>
       <div className="project-div">
-        {projectlist.map((item, index) => (
+        {featuredProjects.map((item, index) => (
           <ProjectCard key={index} item={item} />
         ))}
       </div>
