@@ -12,7 +12,9 @@ const Navbar = () => {
     <>
       <StyledNavbar>
         <div>
-          <Link to="hero">JEOLAD</Link>
+          <Link to="hero" onClick={handleClick}>
+            JEOLAD
+          </Link>
         </div>
         <nav>
           <ul>
