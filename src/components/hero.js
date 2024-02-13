@@ -14,7 +14,7 @@ const Hero = () => {
           building front-end web applications and mobile applications, focusing
           on usability and simplicity.
         </p>
-        <Button text={"Download my résumé"} link={"/TestResume.pdf"} />
+        <Button text={"Download my résumé"} link={"/JESSE ADESINA.pdf"} />
       </div>
     </StyledHero>
   );
