@@ -6,7 +6,7 @@ const variables = css`
     --gray: #706F71;
     --white: #FFFFFF;
     --purple: #D0A2F7;
-    --black: #1E1E1E;
+    --black: #1A192F;
     --transparent: transparent;
 
     --font-custom: "Futura";
@@ -24,7 +24,7 @@ const variables = css`
 
     --padding-subject: 20px;
     --padding-body: 16.67vw;
-    --padding-body-lg: 18vw;
+    --padding-body-lg: 20vw;
     --padding-body-sm: 8.33vw;
     --padding-body-xs: 5vw;
 

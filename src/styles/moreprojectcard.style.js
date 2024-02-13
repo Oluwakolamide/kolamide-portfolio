@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledMoreProjectCard = styled.div`
-  background-color: var(--background-light);
+  background-color: var(--black);
   padding: var(--padding-subject);
   aside {
     div{
