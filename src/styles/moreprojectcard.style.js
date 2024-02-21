@@ -3,6 +3,15 @@ import styled from "styled-components";
 export const StyledMoreProjectCard = styled.div`
   background-color: var(--black);
   padding: var(--padding-subject);
+  &:hover {
+    h2 {
+      color: var(--purple);
+    }
+    .description {
+      color: var(--white);
+      }
+  }
+
   aside {
     div{
         display: flex;

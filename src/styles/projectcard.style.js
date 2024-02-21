@@ -57,7 +57,7 @@ export const StyledProjectCard = styled.div`
 
   ${media.lg`
   aside {
-    margin-top: -70%;
+    margin-top: -65%;
   }
   `}
 

@@ -11,6 +11,14 @@ export const StyledProject = styled.section`
     font-size: var(--fs-sm);
     padding-top: var(--padding-subject);
   }
+  aside {
+    h3 {
+      color: var(--white);
+      text-align: center;
+      font-size: var(--fs-md);
+      padding: var(--padding-body-sm) 0 var(--padding-subject);
+    }
+  }
 
   div.more {
     color: var(--white);
@@ -31,20 +39,21 @@ export const StyledProject = styled.section`
 
   ${media.md`
   padding-inline: var(--padding-body-xs);
-  padding-block: var(--padding-body-lg);
+  padding-block: var(--padding-body-md);
   .project-div {
     display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
   }
   `}
 
   ${media.sm`
   padding-inline: var(--padding-body-xs);
+  padding-block: var(--padding-body-lg);
   .project-div {
     display: grid;
-  grid-template-columns: 1fr;
-  gap: 0;
+    grid-template-columns: 1fr;
+    gap: 0;
   }
   `}
 
@@ -52,5 +61,19 @@ export const StyledProject = styled.section`
   div.more {
     font-size: var(--fs-xs);
   }
+  `}
+`;
+
+export const MoreProjects = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  ${media.md`
+  grid-template-columns: repeat(2, 1fr);
+  `}
+
+  ${media.sm`
+  grid-template-columns: 1fr;
   `}
 `;
