@@ -9,11 +9,13 @@ import GlobalStyle from "./styles/GlobalStyle";
 import Footer from "./components/footer";
 import Experience from "./components/experience";
 import Projects from "./components/projects";
+import SplashScreen from "./components/splashscreen";
 
 function App() {
   return (
     <>
       <GlobalStyle />
+      <SplashScreen />
       <StyledApp>
         <Navbar />
         <Hero />
