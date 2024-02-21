@@ -33,7 +33,7 @@ export const StyledAbout = styled.div`
 
   ${media.md`
   padding-inline: var(--padding-body-xs);
-  padding-block: var(--padding-body-lg);
+  padding-block: var(--padding-body-md);
   height: auto;
   section {
     flex-direction: column;
@@ -41,6 +41,10 @@ export const StyledAbout = styled.div`
       width: 100%;
     }
   }
+  `}
+
+  ${media.sm`
+  padding-block: var(--padding-body-lg);
   `}
 
   ${media.xxs`

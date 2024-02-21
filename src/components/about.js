@@ -28,11 +28,9 @@ const About = () => {
             journey, I'm quite happy that I took the risk.
           </p>
           <p>
-            Currently, <span>I don’t have any professional experience</span>,
-            but I'm looking to gain knowledge and apply my abilities by{" "}
-            <span>
-              working with a team of creative developers and designers.
-            </span>
+            Currently, I am looking for opportunities to{" "}
+            <span>collaborate</span> with a team of creative developers and
+            designers.
           </p>
           <p>
             Fun fact 🙃: <span>JEOLAD</span> is short for{" "}

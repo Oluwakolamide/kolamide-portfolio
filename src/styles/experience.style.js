@@ -20,6 +20,10 @@ export const StyledExperience = styled.div`
 
   ${media.md`
   padding-inline: var(--padding-body-xs);
+  padding-block: var(--padding-body-md);
+  `}
+
+  ${media.sm`
   padding-block: var(--padding-body-lg);
   `}
 `;

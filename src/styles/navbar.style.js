@@ -128,4 +128,12 @@ export const StyledMenu = styled.aside`
     }
   }
   `}
+
+  ${media.xxs`
+  section {
+    nav {
+      font-size: var(--fs-xs);
+    }
+  }
+  `}
 `;

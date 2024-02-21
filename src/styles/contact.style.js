@@ -47,6 +47,13 @@ export const StyledContact = styled.div`
   `}
 
   ${media.md`
+  padding-block: var(--padding-body-md);
+  p {
+    width: 60%;
+  }
+  `}
+
+  ${media.sm`
   padding-block: var(--padding-body-lg);
   p {
     width: 100%;
