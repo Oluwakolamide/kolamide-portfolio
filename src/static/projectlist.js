@@ -67,4 +67,112 @@ export const projectlist = [
       { icon: <Link size={24} />, link: "https://google.com" },
     ],
   },
+  {
+    id: 4,
+    image: "eclipsered-project.png",
+    project_title: "EclipseRed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+    tools: ["VSCode", "JavaScript"],
+    links: [
+      { icon: <GithubLogo size={24} />, link: "https://google.com" },
+      { icon: <Link size={24} />, link: "https://google.com" },
+    ],
+  },
+  {
+    id: 4,
+    image: "eclipsered-project.png",
+    project_title: "EclipseRed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+    tools: ["VSCode", "JavaScript"],
+    links: [
+      { icon: <GithubLogo size={24} />, link: "https://google.com" },
+      { icon: <Link size={24} />, link: "https://google.com" },
+    ],
+  },
+  {
+    id: 4,
+    image: "eclipsered-project.png",
+    project_title: "EclipseRed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+    tools: ["VSCode", "JavaScript"],
+    links: [
+      { icon: <GithubLogo size={24} />, link: "https://google.com" },
+      { icon: <Link size={24} />, link: "https://google.com" },
+    ],
+  },
+  {
+    id: 4,
+    image: "eclipsered-project.png",
+    project_title: "EclipseRed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+    tools: ["VSCode", "JavaScript"],
+    links: [
+      { icon: <GithubLogo size={24} />, link: "https://google.com" },
+      { icon: <Link size={24} />, link: "https://google.com" },
+    ],
+  },
+  {
+    id: 4,
+    image: "eclipsered-project.png",
+    project_title: "EclipseRed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+    tools: ["VSCode", "JavaScript"],
+    links: [
+      { icon: <GithubLogo size={24} />, link: "https://google.com" },
+      { icon: <Link size={24} />, link: "https://google.com" },
+    ],
+  },
+  {
+    id: 4,
+    image: "eclipsered-project.png",
+    project_title: "EclipseRed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+    tools: ["VSCode", "JavaScript"],
+    links: [
+      { icon: <GithubLogo size={24} />, link: "https://google.com" },
+      { icon: <Link size={24} />, link: "https://google.com" },
+    ],
+  },
+  {
+    id: 4,
+    image: "eclipsered-project.png",
+    project_title: "EclipseRed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+    tools: ["VSCode", "JavaScript"],
+    links: [
+      { icon: <GithubLogo size={24} />, link: "https://google.com" },
+      { icon: <Link size={24} />, link: "https://google.com" },
+    ],
+  },
+  {
+    id: 4,
+    image: "eclipsered-project.png",
+    project_title: "EclipseRed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+    tools: ["VSCode", "JavaScript"],
+    links: [
+      { icon: <GithubLogo size={24} />, link: "https://google.com" },
+      { icon: <Link size={24} />, link: "https://google.com" },
+    ],
+  },
+  {
+    id: 4,
+    image: "eclipsered-project.png",
+    project_title: "EclipseRed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+    tools: ["VSCode", "JavaScript"],
+    links: [
+      { icon: <GithubLogo size={24} />, link: "https://google.com" },
+      { icon: <Link size={24} />, link: "https://google.com" },
+    ],
+  },
 ];
