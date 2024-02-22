@@ -66,7 +66,7 @@ export const StyledProject = styled.section`
 
 export const MoreProjects = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 
   ${media.md`

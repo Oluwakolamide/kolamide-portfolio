@@ -7,6 +7,7 @@ export const StyledProjectCard = styled.div`
   grid-template-rows: auto;
   padding-block: var(--padding-subject);
   direction: ${({ layout }) => layout || "ltr"};
+  cursor: default;
   img {
     grid-column-end: span 7;
     width: 100%;
