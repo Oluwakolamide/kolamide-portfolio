@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { Squash as Hamburger } from "hamburger-react";
 import useNavbarState from "../hooks/useNavbarState";
 import useBodyOverflow from "../hooks/useBodyOverflow";
+import handleReload from "../hooks/handleReload";
 
 const Navbar = () => {
   const { open, setOpen, handleClick } = useNavbarState();
@@ -12,7 +13,7 @@ const Navbar = () => {
     <>
       <StyledNavbar>
         <div>
-          <Link to="hero" onClick={handleClick}>
+          <Link to="hero" onClick={handleReload}>
             JEOLAD
           </Link>
         </div>
