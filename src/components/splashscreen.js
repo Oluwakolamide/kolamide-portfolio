@@ -1,6 +1,9 @@
+import useBodyOverflow from "../hooks/useBodyOverflow";
 import { StyledSplashScreen } from "../styles/splashScreen.style";
 
 const SplashScreen = ({ progress, mounted, stopped }) => {
+  useBodyOverflow(progress, mounted);
+
   return (
     <StyledSplashScreen
       progress={progress}
