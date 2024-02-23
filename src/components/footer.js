@@ -1,12 +1,14 @@
 import { StyledFooter } from "../styles/footer.style";
 
 const Footer = () => {
-    return (
-        <StyledFooter>
-        <div>Designed & Built by Jesse Adesina</div>
-        <div>&copy; 2024. All rights reserved.</div>
-        </StyledFooter>
-    );
-}
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <StyledFooter>
+      <div>Designed & Built by Jesse Adesina</div>
+      <div>&copy; {currentYear}. All rights reserved.</div>
+    </StyledFooter>
+  );
+};
 
 export default Footer;
