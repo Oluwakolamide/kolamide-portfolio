@@ -8,7 +8,6 @@ import Footer from "./components/footer";
 import Experience from "./components/experience";
 import Projects from "./components/projects";
 import SplashScreen from "./components/splashscreen";
-// import { useEffect, useState } from "react";
 import useLoading from "./hooks/useLoading";
 
 function App() {
