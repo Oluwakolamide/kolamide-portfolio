@@ -12,24 +12,21 @@ import SplashScreen from "./components/splashscreen";
 import useLoading from "./hooks/useLoading";
 
 function App() {
-  const loading = useLoading();
+  const { loading, isMounted, isLoaded } = useLoading();
 
   return (
     <>
       <GlobalStyle />
-      {loading < 100 ? (
-        <SplashScreen progress={loading} />
-      ) : (
-        <StyledApp>
-          <Navbar />
-          <Hero />
-          <About />
-          <Experience />
-          <Projects />
-          <Contact />
-          <Footer />
-        </StyledApp>
-      )}
+      <SplashScreen progress={loading} mounted={isMounted} stopped={isLoaded} />
+      <StyledApp>
+        <Navbar />
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+        <Footer />
+      </StyledApp>
     </>
   );
 }

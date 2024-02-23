@@ -1,12 +1,12 @@
 import { keyframes } from "styled-components";
 import styled from "styled-components";
 
-const slideIn = keyframes`
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
+const slideOut = keyframes`
+  from {
     transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
   }
 `;
 
@@ -19,11 +19,17 @@ export const StyledSplashScreen = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: ${slideIn} 0.3s linear;
+  overflow: hidden;
+  visibility: hidden;
+  transition: 0.5s linear;
+
+  &.visible {
+    visibility: visible;
+    top: 0;
+  }
 
   &.show {
-    transform: translateY(0);
-    transition: 0.3s linear;
+    animation: ${slideOut} 0.5s linear;
   }
 
   .progress-bar {
@@ -40,8 +46,4 @@ export const StyledSplashScreen = styled.section`
       background-color: var(--purple);
     }
   }
-`;
-
-export const StyledText = styled.div`
-  width: 130px;
 `;
