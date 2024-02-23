@@ -9,9 +9,11 @@ import Experience from "./components/experience";
 import Projects from "./components/projects";
 import SplashScreen from "./components/splashscreen";
 import useLoading from "./hooks/useLoading";
+import useBodyOverflow from "./hooks/useBodyOverflow";
 
 function App() {
   const { loading, isMounted, isLoaded } = useLoading();
+  useBodyOverflow(isMounted);
 
   return (
     <>
