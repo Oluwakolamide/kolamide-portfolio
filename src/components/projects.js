@@ -2,14 +2,21 @@ import useViewMoreState from "../hooks/useViewMoreState";
 import { projectlist } from "../static/projectlist";
 import { MoreProjects, StyledProject } from "../styles/project.style";
 import MoreProjectCard from "./sections/moreprojectcard";
-// import Button from "./sections/button";
 import ProjectCard from "./sections/projectcard";
 import Title from "./sections/title";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Projects = () => {
   const featuredProjects = projectlist.slice(0, 4);
 
   const { viewMore, toogleViewMore } = useViewMoreState();
+
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
 
   return (
     <StyledProject id="projects">
@@ -21,7 +28,7 @@ const Projects = () => {
         ))}
       </div>
       {viewMore && (
-        <aside>
+        <aside data-aos="fade-down">
           <h3>Other Noteworthy Projects</h3>
           <MoreProjects>
             {projectlist.map((item, index) => (
