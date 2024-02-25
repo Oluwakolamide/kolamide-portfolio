@@ -8,7 +8,9 @@ const MoreProjectCard = ({
     <StyledMoreProjectCard text={id % 2 === 0 && "left"} backgroundimg={image}>
       <aside>
         <div>
-          <span><FolderSimple size={50} weight="light" /></span>
+          <span>
+            <FolderSimple size={50} weight="light" />
+          </span>
           <i>
             {links.map((link, index) => (
               <a href={link.link} key={index} target="_blank" rel="noreferrer">

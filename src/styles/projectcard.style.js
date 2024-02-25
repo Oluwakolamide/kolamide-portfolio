@@ -12,9 +12,13 @@ export const StyledProjectCard = styled.div`
     grid-column-end: span 7;
     width: 100%;
     filter: grayscale(100%);
+    transform: scale(1, 1);
+    transition: transform 0.3s linear;
     z-index: 0;
     &:hover {
       filter: grayscale(0);
+      transform: scale(1.03, 1.03);
+      transition: transform 0.3s linear;
     }
   }
   aside {

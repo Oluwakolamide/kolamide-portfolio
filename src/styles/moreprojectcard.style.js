@@ -4,7 +4,11 @@ export const StyledMoreProjectCard = styled.div`
   background-color: var(--black);
   padding: var(--padding-subject);
   cursor: default;
+  transform: scale(1, 1);
+  transition: transform 0.3s linear;
   &:hover {
+    transform: scale(1.03, 1.03);
+    transition: transform 0.3s linear;
     h2 {
       color: var(--purple);
     }

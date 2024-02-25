@@ -63,16 +63,18 @@ export const StyledAboutImage = styled.aside`
 
   div.back {
     width: 100%;
-    border: 2px solid var(--purple);
     img {
       background: var(--purple);
       object-fit: cover;
       width: 100%;
       top: 0;
       filter: grayscale(100%);
+      transform: scale(1, 1);
+      transition: transform 0.3s linear;
       &:hover {
         filter: grayscale(0);
-        translate: -5% -3%;
+        transform: scale(1.03, 1.03);
+        transition: transform 0.3s linear;
       }
     }
   }

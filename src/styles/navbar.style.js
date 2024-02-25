@@ -15,6 +15,12 @@ export const StyledNavbar = styled.div`
     color: var(--purple);
     font-size: var(--fs-lg);
     cursor: pointer;
+    transform: scale(1, 1);
+    transition: transform 0.3s linear;
+    &:hover {
+      transform: scale(1.1, 1.1);
+      transition: transform 0.3s linear;
+    }
   }
 
   nav {
