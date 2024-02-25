@@ -1,12 +1,12 @@
 import { css } from "styled-components";
 
 const variables = css`
-:root {
-    --background: #0E0D24;
-    --gray: #706F71;
-    --white: #FFFFFF;
-    --purple: #D0A2F7;
-    --black: #1A192F;
+  :root {
+    --background: #0e0d24;
+    --gray: #706f71;
+    --white: #ffffff;
+    --purple: #d0a2f7;
+    --black: #1a192f;
     --transparent: transparent;
 
     --font-custom: "Futura";
@@ -30,8 +30,7 @@ const variables = css`
     --padding-body-xs: 5vw;
 
     --border-radius: 8px;
-
-}
+  }
 `;
 
 export default variables;
