@@ -81,7 +81,7 @@ export const projectlist = [
         icon: <GithubLogo size={24} />,
         link: "https://github.com/Jessepelumi/jeolad-portfolio-v1",
       },
-      { icon: <ArrowSquareOut size={24} />, link: "https://google.com" },
+      { icon: <ArrowSquareOut size={24} />, link: "https://jeoladone.netlify.app" },
     ],
   },
   {
