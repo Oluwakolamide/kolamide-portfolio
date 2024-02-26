@@ -34,6 +34,7 @@ export const StyledMoreProjectCard = styled.div`
     .description {
       color: var(--gray);
       text-align: left;
+      margin-bottom: 50px;
     }
     b {
       color: var(--gray);
@@ -41,7 +42,9 @@ export const StyledMoreProjectCard = styled.div`
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      padding-top: 3%;
+      margin-block: 3%;
+      position: absolute;
+      bottom: 0;
       
     }
     i {

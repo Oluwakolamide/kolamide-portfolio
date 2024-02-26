@@ -37,24 +37,26 @@ export const StyledProjectCard = styled.div`
       padding: var(--button-padding);
       border-bottom: 3px solid var(--purple);
     }
-    b {
-      color: var(--gray);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      padding-top: 1%;
-      flex-direction: row-reverse;
-    }
-    i {
-      display: flex;
-      gap: 10px;
-      padding-top: 1%;
-      flex-direction: row-reverse;
-      a {
-        text-decoration: none;
-        color: var(--white);
-        &:hover {
-          color: var(--purple);
+    section {
+      b {
+        color: var(--gray);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 1%;
+        flex-direction: row-reverse;
+      }
+      i {
+        display: flex;
+        gap: 10px;
+        padding-top: 1%;
+        flex-direction: row-reverse;
+        a {
+          text-decoration: none;
+          color: var(--white);
+          &:hover {
+            color: var(--purple);
+          }
         }
       }
     }
@@ -76,12 +78,14 @@ export const StyledProjectCard = styled.div`
   background-repeat: no-repeat;
   background-blend-mode: overlay;
   margin-top: 5%;
+  position: relative;
   img {
     display: none;
   }
   aside {
     display: block;
     margin-top: 0;
+    height: 100%;
     h2 {
       text-align: left;
       padding-left: var(--button-padding);
@@ -91,23 +95,30 @@ export const StyledProjectCard = styled.div`
       padding: var(--button-padding);
       border-bottom: none;
       text-align: left;
+      margin-bottom: 50px;
     }
-    b {
-      color: var(--gray);
-      display: flex;
-      gap: 10px;
-      padding-top: 1%;
-      padding-left: var(--button-padding);
-      flex-direction: row;
-      justify-content: left;
-    }
-    i {
-      display: flex;
-      gap: 10px;
-      padding-top: 3%;
-      padding-left: var(--button-padding);
-      flex-direction: row;
-      justify-content: left;
+    section {
+      position: absolute;
+      bottom: 0;
+      padding-block: 3%;
+      width: 100%;
+      b {
+        color: var(--gray);
+        display: flex;
+        gap: 10px;
+        padding-top: 1%;
+        padding-left: var(--button-padding);
+        flex-direction: row;
+        justify-content: left;
+      }
+      i {
+        display: flex;
+        gap: 10px;
+        padding-top: 3%;
+        padding-left: var(--button-padding);
+        flex-direction: row;
+        justify-content: left;
+      }
     }
   }
   `}
