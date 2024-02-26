@@ -10,6 +10,7 @@ import { useEffect } from "react";
 
 const Projects = () => {
   const featuredProjects = projectlist.slice(0, 4);
+  const otherProjects = projectlist.slice(4);
 
   const { viewMore, toogleViewMore } = useViewMoreState();
 
@@ -31,7 +32,7 @@ const Projects = () => {
         <aside data-aos="fade-down">
           <h3>Other Noteworthy Projects</h3>
           <MoreProjects>
-            {projectlist.map((item, index) => (
+            {otherProjects.map((item, index) => (
               <MoreProjectCard key={index} item={item} />
             ))}
           </MoreProjects>

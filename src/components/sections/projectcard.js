@@ -13,18 +13,20 @@ const ProjectCard = ({
       <aside>
         <h2>{project_title}</h2>
         <div>{description}</div>
-        <b>
-          {tools.map((tool, index) => (
-            <p key={index}>{tool}</p>
-          ))}
-        </b>
-        <i>
-          {links.map((link, index) => (
-            <a href={link.link} key={index} target="_blank" rel="noreferrer">
-              {link.icon}
-            </a>
-          ))}
-        </i>
+        <section>
+          <b>
+            {tools.map((tool, index) => (
+              <p key={index}>{tool}</p>
+            ))}
+          </b>
+          <i>
+            {links.map((link, index) => (
+              <a href={link.link} key={index} target="_blank" rel="noreferrer">
+                {link.icon}
+              </a>
+            ))}
+          </i>
+        </section>
       </aside>
     </StyledProjectCard>
   );

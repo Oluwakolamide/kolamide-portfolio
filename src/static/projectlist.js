@@ -1,4 +1,4 @@
-import { GithubLogo, Link } from "@phosphor-icons/react";
+import { GithubLogo, ArrowSquareOut } from "@phosphor-icons/react";
 
 export const projectlist = [
   {
@@ -6,15 +6,15 @@ export const projectlist = [
     image: "eclipsered-project.png",
     project_title: "EclipseRed",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["HTML", "CSS", "Bootstrap", "JavaScript", "JSON"],
+      "My custom Visual Studio Code theme was designed for developers who love black. It's red accent color portrays the beauty of an eclipse. Overall, it offers a visually immersive coding experience. It has over 100 downloads",
+    tools: ["JSON", "YAML"],
     links: [
       {
         icon: <GithubLogo size={24} />,
         link: "https://github.com/Jessepelumi/eclipseRed",
       },
       {
-        icon: <Link size={24} />,
+        icon: <ArrowSquareOut size={24} />,
         link: "https://marketplace.visualstudio.com/items?itemName=AdesinaJesse.eclipseRed",
       },
     ],
@@ -24,7 +24,7 @@ export const projectlist = [
     image: "belleville-project.png",
     project_title: "Belleville Dentals",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
+      "Website aimed at bringing simplicity to accessible dental services and oral health education. It also features a dental products sales page",
     tools: ["HTML", "CSS", "Bootstrap", "JavaScript", "JSON"],
     links: [
       {
@@ -32,147 +32,135 @@ export const projectlist = [
         link: "https://github.com/Jessepelumi/BellevilleDental",
       },
       {
-        icon: <Link size={24} />,
+        icon: <ArrowSquareOut size={24} />,
         link: "https://jessepelumi.github.io/BellevilleDental/belleville.html#",
       },
     ],
   },
   {
     id: 3,
-    image: "styvic-project.png",
-    project_title: "Styvic",
+    image: "EmployeeRecords.png",
+    project_title: "Employee Record Manager",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
+      "Employee records manager to properly store necessary info about employees, with functionalities that help search by selected filters, modify employee data and also delete employee records",
+    tools: ["Java"],
+    links: [
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/EmployeeRecordManager",
+      },
+    ],
+  },
+  {
+    id: 4,
+    image: "styvic-project.png",
+    project_title: "Styvic Images",
+    description:
+      "One page website for Styvic Images, a media agency that combines creativity, technology, and innovation to redefine the way media is produced, managed, and distributed",
+    tools: ["HTML", "TailwindCSS"],
     links: [
       {
         icon: <GithubLogo size={24} />,
         link: "https://github.com/Jessepelumi/styvicImages",
       },
       {
-        icon: <Link size={24} />,
+        icon: <ArrowSquareOut size={24} />,
         link: "https://jessepelumi.github.io/styvicImages/public/styvic.html",
       },
     ],
   },
   {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
+    id: 5,
+    image: "",
+    project_title: "JEOLAD Portfolio V1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
+      "This the first version of my personal website. My portfolio website is a curated showcase of my creative endeavors, projects, experiences, and journeys so far. ",
+    tools: ["React", "Styled Components"],
     links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/jeolad-portfolio-v1",
+      },
+      { icon: <ArrowSquareOut size={24} />, link: "https://google.com" },
     ],
   },
   {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
+    id: 6,
+    image: "",
+    project_title: "InstaVoid",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
+      "This is media-sharing, cross-platform mobile application. It leverages the functionalities of Flutter and FireBase to enable users upload and store media files. Users can also delete, like, and comment on posts.",
+    tools: ["Dart", "Flutter", "Riverpod", "FireBase"],
     links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/instavoid",
+      },
     ],
   },
   {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
+    id: 7,
+    image: "",
+    project_title: "Ableton",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
+      "This is an 'ableton.com' clone. Ableton is a German music software company that produces and distributes unique software and hardware for music creation and performance.",
+    tools: ["React", "Sass"],
     links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/ableton",
+      },
+      { icon: <ArrowSquareOut size={24} />, link: "https://google.com" },
     ],
   },
   {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
+    id: 8,
+    image: "",
+    project_title: "SchoolManagementSystem",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
+      "The School Manager is a console-based system built with Python to manage teacher, student and course information, as well as take attendance and manage student results. The system features functionalities to create instanceses of, update, view, search and delete teachers, students and courses.",
+    tools: ["Python"],
     links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/SchoolManagementSystem",
+      },
     ],
   },
   {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
+    id: 9,
+    image: "",
+    project_title: "Age Calculator",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
+      "Web calculator to calculate age. The purpose of this project was to put to practice form actions and error states in JavaScript.",
+    tools: ["HTMl", "CSS", "JavaScript"],
     links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/ageCalculator",
+      },
+      {
+        icon: <ArrowSquareOut size={24} />,
+        link: "https://jessepelumi.github.io/ageCalculator/public/ageCalculator.html",
+      },
     ],
   },
   {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
+    id: 10,
+    image: "",
+    project_title: "Newsletter Signup",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
+      "Web page to subscriber to a newsletter, with a confirmation page. This project was to learn how to use email regex, form actions and error states in JavaScript.",
+    tools: ["HTMl", "CSS", "JavaScript"],
     links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
-    ],
-  },
-  {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
-    links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
-    ],
-  },
-  {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
-    links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
-    ],
-  },
-  {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
-    links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
-    ],
-  },
-  {
-    id: 4,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis officia, veniam, accusantium sit ab at commodi blanditiis porro ex consequuntur iure fuga ducimus! Iure expedita suscipit eligendi, sapiente reiciendis officia.",
-    tools: ["VSCode", "JavaScript"],
-    links: [
-      { icon: <GithubLogo size={24} />, link: "https://google.com" },
-      { icon: <Link size={24} />, link: "https://google.com" },
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/newsletter-signup",
+      },
+      {
+        icon: <ArrowSquareOut size={24} />,
+        link: "https://jessepelumi.github.io/newsletter-signup/public/newsletter.html",
+      },
     ],
   },
 ];
