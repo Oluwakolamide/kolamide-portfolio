@@ -10,6 +10,7 @@ import Projects from "./components/projects";
 import SplashScreen from "./components/splashscreen";
 import useLoading from "./hooks/useLoading";
 import useBodyOverflow from "./hooks/useBodyOverflow";
+import { BlurredContainer } from "./styles/blurredContainer";
 
 function App() {
   const { loading, isMounted, isLoaded } = useLoading();
@@ -21,12 +22,14 @@ function App() {
       <SplashScreen progress={loading} mounted={isMounted} stopped={isLoaded} />
       <StyledApp>
         <Navbar />
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
-        <Footer />
+        <BlurredContainer id="blur-container">
+          <Hero />
+          <About />
+          <Experience />
+          <Projects />
+          <Contact />
+          <Footer />
+        </BlurredContainer>
       </StyledApp>
     </>
   );
