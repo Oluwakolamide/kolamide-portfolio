@@ -78,7 +78,6 @@ export const StyledMenu = styled.aside`
   ${media.md`
   display: block;
   background-color: rgba(208, 162, 247, 0.1);
-  backdrop-filter: blur(5px);
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -109,7 +108,7 @@ export const StyledMenu = styled.aside`
       height: 100%;
       display: flex;
       justify-content: center;
-      padding-top: 50%;
+      padding-top: 20%;
       font-size: var(--fs-md);
       ul {
         list-style: none;
