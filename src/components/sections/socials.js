@@ -1,8 +1,8 @@
 import {
   GithubLogo,
   LinkedinLogo,
-  TwitterLogo,
   InstagramLogo,
+  XLogo,
 } from "@phosphor-icons/react";
 import { StyledSocials } from "../../styles/socials.style";
 
@@ -30,7 +30,7 @@ const Socials = () => {
         </li>
         <li>
           <a href="https://x.com/jeolad_?s=09" target="_blank" rel="noreferrer">
-            <TwitterLogo size={24} />
+            <XLogo size={24} />
           </a>
         </li>
         <li>
