@@ -5,36 +5,23 @@ import { StyledAbout, StyledAboutImage } from "../styles/about.style";
 const About = () => {
   return (
     <StyledAbout id="about">
-      <Title sn={"01"} title={"Meet Me"} />
+      <Title sn={"01"} title={"About Me"} />
       <section>
         <div>
-          <p>Hello there! 👋🏾</p>
           <p>
-            I'm Jesse, and my canvas is the internet. I'm passionate about
-            developing solutions that make people's lives easier, and I love
-            building things that live on the Internet.
+            I specialize in building highly scalable and fuctional applications with a strong focus on user experience. My expertise spans both <span>front-end and back-end development for mobile and web platforms.</span>
           </p>
           <p>
-            Because I think that no one is self-made and that we all need other
-            people to solve problems and make sense of life, I have a strong
-            affinity for working in teams.{" "}
-            <span>I believe I'm a really good team player.</span>
+            I thrive in collaborative environments, having both led and contributed to successful teams.
           </p>
           <p>
-            In 2021, I became interested in software development. I was a
-            Surveying and Geoinformatics student at the time. My curiosity drove
-            me to drop out of my then-academic program to pursue a career in
-            software engineering. Although it has been a very challenging
-            journey, I'm quite happy that I took the risk.
+            I'm always looking to expand my network and explore new opportunities for collaboration. Feel free to send me an email or reach out to me on LinkedIn or X.
           </p>
           <p>
-            Currently, I am looking for opportunities to{" "}
-            <span>collaborate</span> with a team of creative developers and
-            designers.
-          </p>
-          <p>
-            Fun fact 🙃: <span>JEOLAD</span> is short for{" "}
-            <span>Jesse Oluwapelumi Adesina.</span>
+            In case you're wondering, <span>JEOLAD</span> is short for <span>Je</span>
+            <i>sse</i> <span>Ol</span>
+            <i>uwapelumi</i> <span>Ad</span>
+            <i>esina</i>.
           </p>
         </div>
         <StyledAboutImage>
