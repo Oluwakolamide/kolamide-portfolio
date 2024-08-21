@@ -14,7 +14,7 @@ const Navbar = () => {
       <StyledNavbar>
         <div>
           <Link to="hero" onClick={handleReload}>
-            KOLAMIDE
+            GIDEON
           </Link>
         </div>
         <nav>
