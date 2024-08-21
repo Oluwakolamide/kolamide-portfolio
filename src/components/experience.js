@@ -4,13 +4,14 @@ import {
   StyledTechnologies,
 } from "../styles/experience.style";
 import Title from "./sections/title";
+import WorkExperience from "./workexperience";
 
 const Experience = () => {
   return (
     <StyledExperience id="experience">
       <Title sn={"02"} title={"Experience"} />
       <section>
-        <p>Technical skills:</p>
+        <p>Technical Skills:</p>
         <StyledTechnologies>
           {technologies.map(function (technology) {
             console.log(technology);
@@ -29,6 +30,10 @@ const Experience = () => {
             );
           })}
         </StyledSkills> */}
+        <br />
+
+        <p>Where I've Worked:</p>
+        <WorkExperience />
       </section>
     </StyledExperience>
   );
