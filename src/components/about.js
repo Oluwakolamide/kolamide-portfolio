@@ -10,36 +10,33 @@ const About = () => {
         <div>
           <p>Hello there! 👋🏾</p>
           <p>
-            I'm Jesse, and my canvas is the internet. I'm passionate about
-            developing solutions that make people's lives easier, and I love
-            building things that live on the Internet.
+            I'm a <span>Data Polymath</span> specializing in transforming complex information
+            into actionable insights. My expertise spans the entire data
+            lifecycle, from database administration to advanced analytics and
+            visualization. I excel in using tools like Power BI, Tableau, SQL,
+            and Python to extract meaningful patterns from diverse datasets.
           </p>
           <p>
-            Because I think that no one is self-made and that we all need other
-            people to solve problems and make sense of life, I have a strong
-            affinity for working in teams.{" "}
-            <span>I believe I'm a really good team player.</span>
+            With experience in roles from Data Analyst to Database
+            Administrator, I build scalable, user-centric data solutions that
+            drive business impact.
           </p>
           <p>
-            In 2021, I became interested in software development. I was a
-            Surveying and Geoinformatics student at the time. My curiosity drove
-            me to drop out of my then-academic program to pursue a career in
-            software engineering. Although it has been a very challenging
-            journey, I'm quite happy that I took the risk.
+            My background in computer science and cybersecurity ensures robust
+            data integrity and security.
           </p>
           <p>
-            Currently, I am looking for opportunities to{" "}
-            <span>collaborate</span> with a team of creative developers and
-            designers.
+            Always open to new collaborations in the data space. Feel free to
+            reach out via email, LinkedIn, or X.
           </p>
           <p>
-            Fun fact 🙃: <span>JEOLAD</span> is short for{" "}
-            <span>Jesse Oluwapelumi Adesina.</span>
+            <span>Kolamide/Oluwakolamide</span> is my first name, but you can call me
+            Gideon.
           </p>
         </div>
         <StyledAboutImage>
           <div className="back">
-            <img src={require("./images/jeolad-portfolio.png")} alt="jeolad" />
+            <img src={require("./images/kolamide.JPG")} alt="jeolad" />
           </div>
         </StyledAboutImage>
       </section>
