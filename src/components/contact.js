@@ -9,13 +9,14 @@ const Contact = () => {
       <Title sn={"04"} title={"Contact"} />
       <h2>Get in Touch</h2>
       <p>
-        Right now, I’m looking to join a team of innovative designers and
-        developers, to put my abilities to use and gain more knowledge.
+        I'm currently seeking full-time data roles. Open to opportunities in
+        analysis, engineering, or science. Feel free to email me or contact me
+        via LinkedIn or X.
       </p>
       <span className="btn">
-        <a href="mailto: jesseoluwapelumi01@gmail.com">
+        <a href="mailto: kg.noble1911@gmail.com">
           <EnvelopeSimple size={24} />
-          Send me an e-mail
+          Send me an Email
         </a>
       </span>
       <Socials />
