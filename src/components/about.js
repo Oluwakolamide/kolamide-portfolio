@@ -9,7 +9,7 @@ const About = () => {
       <section>
         <div>
           <p>
-            I specialize in building highly scalable and fuctional applications with a strong focus on user experience. My expertise spans both <span>front-end and back-end development for mobile and web platforms.</span>
+            I specialize in building highly scalable and functional applications with a strong focus on user experience. My expertise spans both <span>front-end and back-end development for mobile and web platforms.</span>
           </p>
           <p>
             I thrive in collaborative environments, having both led and contributed to successful teams.
