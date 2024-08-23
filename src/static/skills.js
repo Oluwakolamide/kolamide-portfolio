@@ -26,7 +26,7 @@ export const skills = [
     icon: [<Network size={24} />, <AppWindow size={24} />],
   },
   {
-    id: 3,
+    id: 4,
     name: "Cloud Computing",
     icon: [<Cloud size={24} />, <Desktop size={24} />],
   },

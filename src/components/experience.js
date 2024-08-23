@@ -1,25 +1,24 @@
-import { skills } from "../static/skills";
 import { technologies } from "../static/technologies";
 import {
   StyledExperience,
-  StyledSkills,
   StyledTechnologies,
 } from "../styles/experience.style";
 import Title from "./sections/title";
+import WorkExperience from "./workexperience";
 
 const Experience = () => {
   return (
     <StyledExperience id="experience">
       <Title sn={"02"} title={"Experience"} />
       <section>
-        <p>Here are the technologies I've learned and worked with:</p>
+        <p>Technical Skills:</p>
         <StyledTechnologies>
           {technologies.map(function (technology) {
             console.log(technology);
             return <span key={technology.id}>{technology.name}</span>;
           })}
         </StyledTechnologies>
-        <p>Skills summary:</p>
+        {/* <p>Skills summary:</p>
         <StyledSkills>
           {skills.map(function (skill) {
             console.log(skill);
@@ -30,7 +29,11 @@ const Experience = () => {
               </span>
             );
           })}
-        </StyledSkills>
+        </StyledSkills> */}
+        <br />
+
+        <p>Where I've Worked:</p>
+        <WorkExperience />
       </section>
     </StyledExperience>
   );

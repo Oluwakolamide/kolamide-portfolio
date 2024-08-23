@@ -5,10 +5,9 @@ import { StyledAbout, StyledAboutImage } from "../styles/about.style";
 const About = () => {
   return (
     <StyledAbout id="about">
-      <Title sn={"01"} title={"Meet Me"} />
+      <Title sn={"01"} title={"About Me"} />
       <section>
         <div>
-          <p>Hello there! 👋🏾</p>
           <p>
             I'm a <span>Data Polymath</span> specializing in transforming complex information
             into actionable insights. My expertise spans the entire data

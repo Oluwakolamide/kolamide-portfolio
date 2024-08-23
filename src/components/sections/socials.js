@@ -29,6 +29,8 @@ const Socials = () => {
           </a>
         </li>
         <li>
+          <a href="https://x.com/jeolad_?s=09" target="_blank" rel="noreferrer">
+            <XLogo size={24} />
           <a
             href="https://x.com/oluwakolamide_"
             target="_blank"
