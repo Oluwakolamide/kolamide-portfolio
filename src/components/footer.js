@@ -5,7 +5,16 @@ const Footer = () => {
 
   return (
     <StyledFooter>
-      <div>Designed & Built by Jesse Adesina</div>
+      <div>
+        Designed & Built by{" "}
+        <a
+          href="https://www.linkedin.com/in/jeolad/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Jesse Adesina
+        </a>
+      </div>
       <div>&copy; {currentYear}. All rights reserved.</div>
     </StyledFooter>
   );

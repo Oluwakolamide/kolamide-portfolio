@@ -2,11 +2,11 @@ import { css } from "styled-components";
 
 const variables = css`
   :root {
-    --background: #0e0d24;
+    --background: #000000;
     --gray: #706f71;
     --white: #ffffff;
-    --purple: #d0a2f7;
-    --black: #1a192f;
+    --purple: #d0a051;
+    --black: #4d391a;
     --transparent: transparent;
 
     --font-custom: "Futura";

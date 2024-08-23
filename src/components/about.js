@@ -9,24 +9,33 @@ const About = () => {
       <section>
         <div>
           <p>
-            I specialize in building highly scalable and functional applications with a strong focus on user experience. My expertise spans both <span>front-end and back-end development for mobile and web platforms.</span>
+            I'm a <span>Data Polymath</span> specializing in transforming complex information
+            into actionable insights. My expertise spans the entire data
+            lifecycle, from database administration to advanced analytics and
+            visualization. I excel in using tools like Power BI, Tableau, SQL,
+            and Python to extract meaningful patterns from diverse datasets.
           </p>
           <p>
-            I thrive in collaborative environments, having both led and contributed to successful teams.
+            With experience in roles from Data Analyst to Database
+            Administrator, I build scalable, user-centric data solutions that
+            drive business impact.
           </p>
           <p>
-            I'm always looking to expand my network and explore new opportunities for collaboration. Feel free to send me an email or reach out to me on LinkedIn or X.
+            My background in computer science and cybersecurity ensures robust
+            data integrity and security.
           </p>
           <p>
-            In case you're wondering, <span>JEOLAD</span> is short for <span>Je</span>
-            <i>sse</i> <span>Ol</span>
-            <i>uwapelumi</i> <span>Ad</span>
-            <i>esina</i>.
+            Always open to new collaborations in the data space. Feel free to
+            reach out via email, LinkedIn, or X.
+          </p>
+          <p>
+            <span>Kolamide/Oluwakolamide</span> is my first name, but you can call me
+            Gideon.
           </p>
         </div>
         <StyledAboutImage>
           <div className="back">
-            <img src={require("./images/jeolad-portfolio.png")} alt="jeolad" />
+            <img src={require("./images/kolamide.JPG")} alt="jeolad" />
           </div>
         </StyledAboutImage>
       </section>

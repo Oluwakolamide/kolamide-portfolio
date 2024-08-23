@@ -11,6 +11,13 @@ export const StyledFooter = styled.div`
   gap: 0.5rem;
   padding: 3rem;
 
+  a {
+    color: var(--gray);
+    &:hover {
+      color: var(--purple);
+    }
+  }
+
   ${media.xxs`
   text-align: center;
   `}
