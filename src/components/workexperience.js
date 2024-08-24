@@ -33,7 +33,7 @@ const WorkExperience = () => {
           <ul>
             <li key={index}>
               <span>
-                <CaretRight weight="duotone" size={12} color="#d0a2f7" />
+                <CaretRight weight="duotone" size={12} color="#d0a051" />
               </span>
               {detail}
             </li>
