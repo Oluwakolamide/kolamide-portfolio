@@ -3,7 +3,7 @@ import { media } from "./breakpoints";
 
 export const StyledWorkExperience = styled.div`
   display: flex;
-  width: 85%;
+  width: 90%;
 
   aside {
     flex: 1;
@@ -31,7 +31,7 @@ export const StyledWorkExperience = styled.div`
   }
 
   article {
-    flex: 4;
+    flex: 3;
     padding: 10px;
 
     div {
