@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const Projects = () => {
-  const featuredProjects = projectlist.slice(0, 4);
+  const featuredProjects = projectlist.slice(0, 2);
   const otherProjects = projectlist.slice(4);
 
   const { viewMore, toogleViewMore } = useViewMoreState();

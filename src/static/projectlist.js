@@ -1,165 +1,108 @@
-import { GithubLogo, ArrowSquareOut } from "@phosphor-icons/react";
+import { ArrowSquareOut } from "@phosphor-icons/react";
 
 export const projectlist = [
   {
     id: 1,
-    image: "eclipsered-project.png",
-    project_title: "EclipseRed",
+    image: "azure.webp",
+    project_title: "Azure Data Analytics Platform Implementation",
     description:
-      "My custom Visual Studio Code theme was designed for developers who love black. It's red accent color portrays the beauty of an eclipse. Overall, it offers a visually immersive coding experience. It has over 100 downloads",
-    tools: ["JSON", "YAML"],
-    links: [
-      {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/eclipseRed",
-      },
-      {
-        icon: <ArrowSquareOut size={24} />,
-        link: "https://marketplace.visualstudio.com/items?itemName=AdesinaJesse.eclipseRed",
-      },
+      "Designed and implemented a scalable data analytics platform on Microsoft Azure, leveraging services like Azure Data Factory, Databricks, and Synapse Analytics. Established a data lakehouse architecture using Delta Lake to provide a unified data storage and processing solution.",
+    tools: [
+      "Microsoft Azure",
+      "Data Factory",
+      "Databricks",
+      "Synapse Analytics",
     ],
+    links: [],
   },
   {
     id: 2,
-    image: "belleville-project.png",
-    project_title: "Belleville Dentals",
+    image: "warehouse.webp",
+    project_title: "Enterprise Data Warehouse Development",
     description:
-      "Website aimed at bringing simplicity to accessible dental services and oral health education. It also features a dental products sales page",
-    tools: ["HTML", "CSS", "Bootstrap", "JavaScript", "JSON"],
-    links: [
-      {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/BellevilleDental",
-      },
-      {
-        icon: <ArrowSquareOut size={24} />,
-        link: "https://jessepelumi.github.io/BellevilleDental/belleville.html#",
-      },
-    ],
+      "Built and maintained a comprehensive data warehouse, enabling advanced analytics and supporting strategic decision-making",
+    tools: ["Data warehousing", "ETL Processes", "Business Intelligence"],
+    links: [],
   },
   {
     id: 3,
-    image: "EmployeeRecords.png",
-    project_title: "Employee Record Manager",
+    image: "",
+    project_title: "Mission-Critical Database Migration",
     description:
-      "Employee records manager to properly store necessary info about employees, with functionalities that help search by selected filters, modify employee data and also delete employee records",
-    tools: ["Java"],
-    links: [
-      {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/EmployeeRecordManager",
-      },
-    ],
+      "Led the migration of a mission-critical database from SQL Server 2008 to 2019, ensuring zero downtime and enhanced performance",
+    tools: ["SQL Server"],
+    links: [],
   },
   {
     id: 4,
-    image: "styvic-project.png",
-    project_title: "Styvic Images",
+    image: "",
+    project_title: "Enterprise Database Design and Implementation",
     description:
-      "One page website for Styvic Images, a media agency that combines creativity, technology, and innovation to redefine the way media is produced, managed, and distributed",
-    tools: ["HTML", "TailwindCSS"],
-    links: [
-      {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/styvicImages",
-      },
-      {
-        icon: <ArrowSquareOut size={24} />,
-        link: "https://jessepelumi.github.io/styvicImages/public/styvic.html",
-      },
-    ],
+      "Designed and implemented a high-performance Oracle Database 19c system for a large-scale e-commerce platform, boosting data retrieval speed by 40%",
+    tools: ["Oracle Database"],
+    links: [],
   },
   {
     id: 5,
     image: "",
-    project_title: "JEOLAD Portfolio V1",
+    project_title: "Cross-Platform Database Replication",
     description:
-      "This the first version of my personal website. My portfolio website is a curated showcase of my creative endeavors, projects, experiences, and journeys so far. ",
-    tools: ["React", "Styled Components"],
-    links: [
-      {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/jeolad-portfolio-v1",
-      },
-      { icon: <ArrowSquareOut size={24} />, link: "https://jeoladone.netlify.app" },
-    ],
+      "Implemented real-time data replication between SQL Server and Oracle databases, ensuring consistency across all applications",
+    tools: ["SQL Server", "Oracle"],
+    links: [],
   },
   {
     id: 6,
     image: "",
-    project_title: "InstaVoid",
+    project_title: "Automated Backup and Recovery System",
     description:
-      "This is media-sharing, cross-platform mobile application. It leverages the functionalities of Flutter and FireBase to enable users upload and store media files. Users can also delete, like, and comment on posts.",
-    tools: ["Dart", "Flutter", "Riverpod", "FireBase"],
-    links: [
-      {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/instavoid",
-      },
-    ],
+      "Developed an automated backup and recovery system using Tivoli and RMAN, reducing manual effort and enhancing data integrity",
+    tools: ["Tivoli", "RMAN", "Riverpod", "FireBase"],
+    links: [],
   },
   {
     id: 7,
     image: "",
-    project_title: "Ableton",
+    project_title: "Mineral Commodity Price Forecasting",
     description:
-      "This is an 'ableton.com' clone. Ableton is a German music software company that produces and distributes unique software and hardware for music creation and performance.",
-    tools: ["React", "Sass"],
-    links: [
-      {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/ableton",
-      },
-      { icon: <ArrowSquareOut size={24} />, link: "https://google.com" },
-    ],
+      "Developed a statistical model to forecast prices of key mineral commodities using time series analysis and market trend data and provided actionable insights by predicting price fluctuations and assessing market risks",
+    tools: [],
+    links: [],
   },
   {
     id: 8,
     image: "",
-    project_title: "SchoolManagementSystem",
+    project_title: "U.S. DOT Air Travel Analysis (2015) | Power BI",
     description:
-      "The School Manager is a console-based system built with Python to manage teacher, student and course information, as well as take attendance and manage student results. The system features functionalities to create instanceses of, update, view, search and delete teachers, students and courses.",
-    tools: ["Python"],
-    links: [
-      {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/SchoolManagementSystem",
-      },
-    ],
+      "Analyzed over 5 million commercial airline flights in 2015, visualizing flight data including airline names, flight numbers, airports, distances, and departure/arrival times using Power BI. Data provided by Quantum Analytics NG",
+    tools: [],
+    links: [],
   },
   {
     id: 9,
     image: "",
-    project_title: "Age Calculator",
+    project_title: "Global COVID-19 Analysis | Tableau",
     description:
-      "Web calculator to calculate age. The purpose of this project was to put to practice form actions and error states in JavaScript.",
-    tools: ["HTMl", "CSS", "JavaScript"],
+      "Utilized WHO data to visualize global COVID-19 trends with Tableau dashboards, providing insights into infection rates, recoveries, and fatalities across different regions",
+    tools: [],
     links: [
       {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/ageCalculator",
-      },
-      {
         icon: <ArrowSquareOut size={24} />,
-        link: "https://jessepelumi.github.io/ageCalculator/public/ageCalculator.html",
+        link: "https://public.tableau.com/views/GLOBALCOVIDDATASET/Deathbycountries?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
       },
     ],
   },
   {
     id: 10,
     image: "",
-    project_title: "Newsletter Signup",
+    project_title: "Stock Price Analysis (2015-2021) | Tableau",
     description:
-      "Web page to subscriber to a newsletter, with a confirmation page. This project was to learn how to use email regex, form actions and error states in JavaScript.",
-    tools: ["HTMl", "CSS", "JavaScript"],
+      "Analyzed daily stock prices of Apple, Amazon, Netflix, Microsoft, Google, Facebook, Tesla, Walmart, Uber, and Zoom from 2015 to 2021. Visualized trends and trading volumes using Tableau",
+    tools: [],
     links: [
       {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/newsletter-signup",
-      },
-      {
         icon: <ArrowSquareOut size={24} />,
-        link: "https://jessepelumi.github.io/newsletter-signup/public/newsletter.html",
+        link: "https://public.tableau.com/app/profile/idowu.oluwakolamide/viz/HISTORICALSTOCKDATASET/Dashboard4",
       },
     ],
   },
